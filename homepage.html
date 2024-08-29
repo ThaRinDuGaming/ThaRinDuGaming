@@ -1,0 +1,501 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ThaRinDu_G - Home</title>
+    <style>
+        body {
+            background-image: url("animenew.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: right top;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+
+        button {
+            background-color: black;
+            border-radius: 20px;
+            width: 140px;
+            height: 50px;
+        }
+
+        header {
+            background-color: #FF69B4; /* Rosa patta */
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            opacity: 0;
+            animation: fadeIn 3s forwards;
+            transition: transform 0.5s ease, background-color 0.5s ease;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        nav {
+            margin: 20px;
+            text-align: center;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #FF69B4;
+        }
+
+        section {
+            padding: 20px;
+        }
+		.content-block iframe {
+    margin-bottom: 25px; /* Adjust this value as needed */
+    padding: 20px; /* Optional padding */
+}
+
+
+        .content-block {
+            margin-bottom: 30px;
+            background-color: rgba(0, 0, 0, 0.6); /* Slightly transparent black background */
+            padding: 15px;
+            border-radius: 10px;
+        }
+
+        .content-block h2 {
+            color: #ff69b4;
+        }
+
+        .content-block p, .content-block ul {
+            color: #ffffff;
+        }
+
+        ul {
+            list-style-type: disc; /* Bullets for the news items */
+            padding-left: 20px;
+        }
+
+        ul li {
+            margin-bottom: 10px; /* Space between news items */
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        .news-image-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-bottom: 20px;
+        }
+
+        .news-image-container a {
+    position: relative; /* Set the parent element's position as relative */
+    display: block;
+    width: 100%;
+    max-width: 300px; /* Adjust the max-width for each image */
+    margin: 10px;
+    text-decoration: none;
+}
+
+.news-image-container h3 {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0; /* Reset margin */
+    z-index: 10; /* Ensure the text is on top of the image */
+}
+
+
+        .news-image-container img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            transition: opacity 0.3s ease;
+        }
+
+        .news-image-container a:hover img {
+            opacity: 0.8;
+        }
+		header h1 {
+    color: white; /* Text color */
+    text-shadow: 
+        -1px -1px 0 #000,  
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000; /* Black outline */
+}
+/* Default Styles for Larger Screens */
+body {
+    font-size: 16px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Media Query for Tablets and Smaller Screens */
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    .container {
+        width: 90%;
+    }
+}
+
+/* Media Query for Mobile Screens */
+@media only screen and (max-width: 480px) {
+    body {
+        font-size: 12px;
+    }
+
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    nav button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .news-image-container a {
+        max-width: 100%;
+        margin: 5px 0;
+    }
+	.news-image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center items horizontally */
+}
+
+.news-image-container a {
+    flex: 1 1 300px; /* Grow and shrink as needed, minimum width 300px */
+    margin: 10px;
+}
+img {
+    max-width: 100%;
+    height: auto; /* Maintain aspect ratio */
+}
+
+}
+
+
+
+        
+    </style>
+</head>
+<body>
+
+<marquee>Welcome To Tharindu Gaming Website . Check New Gaming Updates.</marquee>
+    <header>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <h1>Welcome to ThaRinDu_G</h1>
+    </header>
+    <body>
+    <audio autoplay loop>
+        <source src="background-music.mp3" type="audio/mpeg">
+    </audio>
+	
+
+    <!-- Rest of your website content -->
+</body>
+
+    <nav>
+        <button><a href="homepage.html">Home</a></button>
+        <button><a href="aboutpage.html">About</a></button>
+        <button><a href="contact.html">Contact</a></button>
+        <button><a href="done.html">Donation</a></button>
+    </nav>
+    
+    <section>
+
+
+    <!-- Navigation dots -->
+    <div style="text-align:center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+</div>
+
+        <div class="content-block">
+            <h2>Gaming News</h2>
+            <p>Latest news about the game world:</p>
+
+            <div class="news-image-container">
+                <a href="news1.html">
+                    <img src="news1img.jpg" alt="Gaming News">
+                    <h3>Genshin Impact Reveals New Artifacts for Version 5.0</h3>
+                </a>
+
+                <a href="news2.html">
+                    <img src="news2img.jpg" alt="Gaming News">
+                    <h3>Black Myth: Wukong Fuels Over 1 Exabyte of Chinese Steam Traffic</h3>
+                </a>
+
+                <a href="news3.html">
+                    <img src="news3img.jpg" alt="Gaming News">
+                    <h3>Rumor: Sony Could Be Creating More Problems for MCU's Spider-Man</h3>
+                </a>
+            </div>
+        </div>
+
+        <div class="content-block channel-news">
+            <h2>Channel News</h2>
+            <p>Stay updated with the latest news about our channel:</p>
+            <ul>
+                <li>August 2024: New video series launching next week!</li>
+                <li></li>
+                <li>June 2024: Collaboration with famous gamers - Stay tuned!</li>
+            </ul>
+        </div>
+
+        <div class="content-block">
+            <h2>Live</h2>
+            <p>Watch our latest live stream below:</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/?listType=playlist&list=PLw6iERps_fNUx_UH0PsSontRF2TsAbI3e" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        
+        <div class="content-block">
+            <h2>New Video</h2>
+            <p>Watch our latest video below:</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/pmIuAWZk1MA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+</li>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>August Game Releases</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #FF69B4; /* Rosa patta */
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #FF69B;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+			body {
+            font-family: Arial, sans-serif;
+            background-image: url('download (1).jpg'); /* Background image එක ඇතුළත් කරන්න */
+            background-size: cover; /* Image එක screen එකට fit කරයි */
+            background-repeat: no-repeat; /* Image එක නැවත නැවත පෙනීම වැලැක්වීමට */
+            background-position: center; /* Image එක screen එකේ center එකේ position කරයි */
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>August Game Releases</h1>
+    </header>
+    <section>
+        <h2>August 1</h2>
+        <ul>
+            <li>Bare Butt Boxing (PC, PS5, PS4, Switch)</li>
+            <li>Kitsune Tails (PC)</li>
+            <li>Malware (PC)</li>
+            <li>myPOPGOES (PC)</li>
+            <li>Star Wars: Bounty Hunter (PC, PS5, PS4, Switch, XBX/S, XBO)</li>
+            <li>Sword of Convallaria (PC)</li>
+            <li>Thalassa: Edge of the Abyss (PC)</li>
+            <li>Thank Goodness You're Here! (PC, PS5, PS4, Switch)</li>
+            <li>Tomba! Special Edition (PC, PS5, PS4, Switch)</li>
+        </ul>
+
+        <h2>August 2</h2>
+        <ul>
+            <li>Closer the Distance (PC, PS5, XBX/S)</li>
+            <li>Deviator (PC)</li>
+            <li>Motordoom (PC)</li>
+            <li>World of Goo 2 (PC, Switch)</li>
+        </ul>
+
+        <h2>August 3</h2>
+        <ul>
+            <li>Unrooted (PC)</li>
+        </ul>
+
+        <h2>August 5</h2>
+        <ul>
+            <li>Fields of Mistria (PC)</li>
+            <li>Pixel Art Academy: Learn Mode (PC)</li>
+        </ul>
+
+        <h2>August 6</h2>
+        <ul>
+            <li>Eden Genesis (PC, PS5, PS4, Switch, XBX/S, XBO)</li>
+            <li>Candlelight: Lament (PC)</li>
+            <li>CYGNI: All Guns Blazing (PC, PS5, XBX/S)</li>
+            <li>Hero Emblems 2 (PC)</li>
+            <li>Level Zero: Extraction (PC)</li>
+            <li>One BTN Bosses (PC)</li>
+            <li>Retail Company Simulator (PC)</li>
+            <li>Volgarr the Viking 2 (PC, PS5, PS4, Switch, XBX/S, XBO)</li>
+            <li>Warhammer 40,000: Speed Freeks (PC)</li>
+        </ul>
+
+        <h2>August 7</h2>
+        <ul>
+            <li>Creatures of Ava (PC, XBX/S)</li>
+            <li>Fate/stay night REMASTERED (PC)</li>
+            <li>Five Nights at Freddy's: Into the Pit (PC)</li>
+            <li>Revue Starlight El Dorado (PC)</li>
+            <li>Skelethrone: The Chronicles of Ericona (PC)</li>
+        </ul>
+
+        <h2>August 8</h2>
+        <ul>
+            <li>The Burst (PC)</li>
+            <li>Cat Quest 3 (PC, PS5, PS4, Switch, XBX/S, XBO)</li>
+            <li>Deathbound (PC, PS5, XBX/S)</li>
+            <li>Demon Go! (PC, Switch)</li>
+            <li>Dungeons & Degenerate Gamblers (PC)</li>
+            <li>JDM: Rise of the Scorpion (PC)</li>
+            <li>Let Me Out (PC)</li>
+            <li>Mini Settlers (PC)</li>
+            <li>Moonless Moon (PC)</li>
+            <li>Pawn Planet (PC)</li>
+            <li>Preserve (PC)</li>
+            <li>Princess Maker 2 Regeneration (PC, PS5, PS4, Switch)</li>
+            <li>Shikon-X Astro Defense Fortress (PC, Switch)</li>
+            <li>Steamworld Heist 2 (PC, PS5, PS4, Switch, XBX/S, XBO)</li>
+            <li>SUSHI Drop (PC, Switch)</li>
+            <li>That Time I Got Reincarnated as a Slime ISEKAI Chronicles (PC, PS5, PS4, Switch, XBX/S, XBO)</li>
+            <li>VLADiK BRUTAL (PC)</li>
+        </ul>
+
+        <h2>August 9</h2>
+        <ul>
+            <li>The Crush House (PC)</li>
+            <li>Train Valley World (PC)</li>
+        </ul>
+
+        <h2>August 12</h2>
+        <ul>
+            <li>Cult of the Lamb: Unholy Alliance (PC, PS5, PS4, Switch, XBX/S, XBO)</li>
+            <li>Operation: Polygon Storm (PC)</li>
+        </ul>
+
+        <h2>August 13</h2>
+        <ul>
+            <li>Demonsomnia (PC)</li>
+            <li>Guayota (PC, Switch)</li>
+            <li>Hidden Through Time 2: Discovery (PC, PS5, Switch, XBX/S)</li>
+            <li>Level Zero: Extraction (PC)</li>
+            <li>Leximan (PC)</li>
+            <li>Shoulders of Giants: Ultimate (PC, PS5)</li>
+            <li>Tavern Manager Simulator (PC)</li>
+        </ul>
+
+        <h2>August 14</h2>
+        <ul>
+            <li>Crime Scene Cleaner (PC)</li>
+            <li>Desvelado (PC)</li>
+            <li>Love, Ghostie (PC)</li>
+            <li>Sam & Max: The Devil's Playhouse Remastered (PC, PS4, Switch, XBX/S)</li>
+            <li>Tiny Pixels Vol. 1 - Ninpo Blast (PC, Switch)</li>
+        </ul>
+
+        <h2>August 15</h2>
+        <ul>
+            <li>Arco (PC)</li>
+            <li>The Crimson Diamond (PC)</li>
+            <li>Dawn of Defiance (PC)</li>
+            <li>Dredge: The Iron Rig (PC, PS5, PS4, Switch, XBX/S, XBO)</li>
+            <li>Farewell North (PC, Switch, XBX/S)</li>
+            <li>Frontline Crisis (PC)</li>
+            <li>Intravenous 2 (PC)</li>
+            <li>Just Crow Things (PC, PS5, PS4, Switch, XBX/S, XBO)</li>
+            <li>ODDADA (PC)</li>
+            <li>Phantom Spark (PC, PS5, PS4, Switch, XBX/S)</li>
+            <li>The Precinct (PC, PS5, XBX/S)</li>
+            <li>Sins of a Solar Empire 2 (PC)</li>
+            <li>Warcana (PC)</li>
+        </ul>
+
+        <h2>August 16</h2>
+        <ul>
+            <li>Castaway (PC, PS5, PS4, Switch, XBX/S, XBO)</li>
+            <li>Dadish Collection (PC, Switch)</li>
+            <li>EA Sports Madden NFL 25 (PC)</li>
+            <li>Feed the Deep (PC)</li>
+            <li>House of Golf 2 (PC, PS5, XBX/S)</li>
+            <li>Mute Crimson DX (PC, Switch, XBO)</li>
+            <li>Overboss (PC, PS5, PS4, Switch, XBX/S, XBO)</li>
+            <li>Pawn Planet (PC)</li>
+            <li>White Day 2: The Flower That Tells Lies - Complete Edition (PC, PS5, XBX/S)</li>
+        </ul>
+
+        <
+
+            </ul>
+        </div>
+    </section>
+    <footer>
+    <p>&copy; 2024 ThaRinDu_G</p>
+    <p>Website created by Tharindu Dilhara and Nipun Indrajith</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ThaRinDu_G - Donation</title>
+    <style>
+       body {
+    background-image: url('animenew.jpg'); /* Background image එක */
+    background-size: cover; /* Image එක screen එකට fit කරයි */
+    background-repeat: no-repeat; /* Image එක නැවත නැවත පෙනීම වැලැක්වීමට */
+    background-position: center center; /* Image එක center එකේ position කරයි */
+    background-attachment: fixed; /* Scrolling හෝ zoom කරන විට image එක move නොවීම සඳහා */
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+        button {
+            background-color: black;
+            border-radius: 20px;
+            width: 140px;
+            height: 50px;
+        }
+
+        header {
+            background-color: #FF69B4;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav {
+            margin: 20px;
+            text-align: center;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #FF69B4;
+        }
+
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .donation-container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+            margin-top: 20px;
+            opacity: 0.9;
+            max-width: 90%;
+            width: 600px;
+        }
+
+        h2 {
+            color: #FF69B4;
+        }
+
+        .donation-container p {
+            margin-bottom: 20px;
+        }
+
+        .donation-button {
+            background-color: #FF69B4;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        header h1 {
+            color: white;
+            text-shadow:
+                -1px -1px 0 #000,
+                 1px -1px 0 #000,
+                -1px  1px 0 #000,
+                 1px  1px 0 #000;
+        }
+
+        @media (max-width: 768px) {
+            button {
+                width: 120px;
+                height: 40px;
+            }
+
+            .donation-container {
+                width: 90%;
+                padding: 15px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header h1 {
+                font-size: 1.5em;
+            }
+
+            button {
+                width: 100px;
+                height: 35px;
+            }
+
+            .donation-container {
+                width: 100%;
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Provide support for ThaRinDu_G</h1>
+    </header>
+    <nav>
+        <button><a href="homepage.html">Home</a></button>
+        <button><a href="aboutpage.html">About</a></button>
+        <button><a href="contact.html">Contact</a></button>
+        <button><a href="done.html">Donation</a></button>
+    </nav>
+    
+    <section>
+        <div class="donation-container">
+            <h2>Your support is very valuable to us.</h2>
+            <p>If you can enjoy our content and want to support our work, you should make a donation. Each of your contributions enables us to create new content.</p>
+            <a href="https://buymeacoffee.com/tharindugaming" class="donation-button" target="_blank">Donate Now</a>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 ThaRinDu_G</p>
+        <p>Website created by Tharindu Dilhara and Nipun Indrajith</p>
+    </footer>
+</body>
+</html>
